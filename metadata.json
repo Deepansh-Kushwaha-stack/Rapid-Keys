@@ -1,0 +1,5 @@
+{
+  "name": "RapidKeys",
+  "description": "A minimal, high-performance typing practice app with real-time leaderboards and detailed analytics.",
+  "requestFramePermissions": []
+}
