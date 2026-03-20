@@ -1,20 +1,54 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🚀 RapidKeys
 
-# Run and deploy your AI Studio app
+**RapidKeys** is a modern and fast typing practice web application designed to help users improve their typing speed and accuracy with real-time feedback.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/09945c99-5faf-4a0c-b959-b0d1dfc5fab0
+## 🌟 Features
 
-## Run Locally
+- ⚡ Real-time typing speed (WPM) calculation  
+- 🎯 Accuracy tracking while typing  
+- 🔐 User Authentication (Login & Signup)  
+- 📊 Performance monitoring  
+- 💻 Clean and minimal UI  
+- 🚀 Fast and responsive experience  
 
-**Prerequisites:**  Node.js
+---
 
+## 🧠 How It Works
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+RapidKeys provides users with a typing interface where they can practice typing text in real time. As the user types:
+
+- Words Per Minute (WPM) is calculated instantly  
+- Accuracy is tracked dynamically  
+- Mistakes are highlighted for better learning  
+
+Users can log in to save and track their progress.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** Vite, HTML, CSS, JavaScript  
+- **Backend:** Node.js  
+- **Authentication & Database:** Firebase  
+- **Deployment:** Netlify  
+
+---
+
+## ⚙️ Installation & Setup
+
+Follow these steps to run the project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/rapidkeys.git
+
+# Navigate to the project folder
+cd rapidkeys
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
